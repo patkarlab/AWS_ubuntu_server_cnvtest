@@ -1,0 +1,699 @@
+CNVkit 0.9.10.dev0
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/Reference.target-tmp.bed with 9365 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/Reference.antitarget-tmp.bed with 167 regions
+Running 17 samples in serial
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1223.final.bam ...
+Processing reads in 21NGS1223.final.bam
+Time: 123.997 seconds (37098 reads/sec, 76 bins/sec)
+Summary: #bins=9365, #reads=4600049, mean=491.1959, min=6.2, max=10265.41875 
+Percent reads in regions: 73.301 (of 6275554 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1223.final.bam
+Time: 0.233 seconds (91642 reads/sec, 717 bins/sec)
+Summary: #bins=167, #reads=21334, mean=127.7497, min=0.0, max=3508.3375 
+Percent reads in regions: 0.340 (of 6275554 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1223.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1223.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 25.03 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 555 bins on chromosome chr7
+Smoothing overshot at 1 / 182 indices: (-0.2813354477494633, 1.1353134737954815) vs. original (-0.5819233987477102, 1.0662389712664506)
+Dropped 1 / 395 bins on chromosome chrX
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final.cns with 45 regions
+Applying filter 'ci'
+Filtered by 'ci' from 45 to 34 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final.call.cns with 34 regions
+Ignoring 88 off-target bins
+Significant hits in 468/8590 bins (5.45%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final.bintest.cns with 468 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final-scatter.png
+Relative log2 coverage of chrX=-1.02, chrY=0.374 (maleness=1.59e+03 x 31.3 = 4.97e+04) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1223.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1308.final.bam ...
+Processing reads in 21NGS1308.final.bam
+Time: 150.356 seconds (29469 reads/sec, 62 bins/sec)
+Summary: #bins=9365, #reads=4430874, mean=473.1312, min=2.5, max=5599.15625 
+Percent reads in regions: 74.685 (of 5932754 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1308.final.bam
+Time: 0.184 seconds (61773 reads/sec, 906 bins/sec)
+Summary: #bins=167, #reads=11385, mean=68.1740, min=0.0, max=1837.171875 
+Percent reads in regions: 0.192 (of 5932754 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1308.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1308.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 27.89 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 555 bins on chromosome chr7
+Smoothing overshot at 1 / 182 indices: (-0.26481582475815046, 1.7069100506345019) vs. original (-0.8457419912575465, 1.6900950289762007)
+Dropped 1 / 299 bins on chromosome chr16
+Dropped 3 / 197 bins on chromosome chr19
+Dropped 1 / 395 bins on chromosome chrX
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final.cns with 47 regions
+Applying filter 'ci'
+Filtered by 'ci' from 47 to 36 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final.call.cns with 36 regions
+Ignoring 88 off-target bins
+Significant hits in 783/8590 bins (9.12%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final.bintest.cns with 783 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final-scatter.png
+Relative log2 coverage of chrX=-0.984, chrY=0.413 (maleness=42 x 1.78e+03 = 7.46e+04) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1308.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1311.final.bam ...
+Processing reads in 21NGS1311.final.bam
+Time: 107.936 seconds (42182 reads/sec, 87 bins/sec)
+Summary: #bins=9365, #reads=4552980, mean=486.1698, min=0.0, max=11068.591240875912 
+Percent reads in regions: 83.018 (of 5484354 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1311.final.bam
+Time: 0.283 seconds (121572 reads/sec, 591 bins/sec)
+Summary: #bins=167, #reads=34377, mean=205.8528, min=0.0, max=5879.744525547445 
+Percent reads in regions: 0.627 (of 5484354 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1311.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1311.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 25.54 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final.cns with 48 regions
+Applying filter 'ci'
+Filtered by 'ci' from 48 to 38 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final.call.cns with 38 regions
+Ignoring 88 off-target bins
+Significant hits in 541/8590 bins (6.3%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final.bintest.cns with 541 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final-scatter.png
+Relative log2 coverage of chrX=-0.983, chrY=0.451 (maleness=125 x 1.78e+03 = 2.23e+05) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1311.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1317.final.bam ...
+Processing reads in 21NGS1317.final.bam
+Time: 125.756 seconds (31011 reads/sec, 74 bins/sec)
+Summary: #bins=9365, #reads=3899853, mean=416.4286, min=2.8923884514435696, max=4224.435695538058 
+Percent reads in regions: 74.345 (of 5245582 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1317.final.bam
+Time: 0.169 seconds (64036 reads/sec, 987 bins/sec)
+Summary: #bins=167, #reads=10837, mean=64.8954, min=0.0, max=1833.4173228346456 
+Percent reads in regions: 0.207 (of 5245582 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1317.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1317.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 25.59 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 97 bins on chromosome chr6
+Dropped 3 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Dropped 1 / 299 bins on chromosome chr16
+Dropped 3 / 293 bins on chromosome chr17
+Dropped 3 / 197 bins on chromosome chr19
+Smoothing overshot at 4 / 125 indices: (-0.6690972969340976, 6.485978076757047) vs. original (-0.5043800159549285, 15.255958372563153)
+Dropped 1 / 395 bins on chromosome chrX
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final.cns with 43 regions
+Applying filter 'ci'
+Filtered by 'ci' from 43 to 32 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final.call.cns with 32 regions
+Ignoring 88 off-target bins
+Significant hits in 796/8590 bins (9.27%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final.bintest.cns with 796 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final-scatter.png
+Relative log2 coverage of chrX=-0.963, chrY=0.518 (maleness=55.8 x 1.78e+03 = 9.9e+04) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1317.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1318.final.bam ...
+Processing reads in 21NGS1318.final.bam
+Time: 107.672 seconds (30767 reads/sec, 87 bins/sec)
+Summary: #bins=9365, #reads=3312703, mean=353.7324, min=0.0, max=5497.365591397849 
+Percent reads in regions: 76.920 (of 4306679 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1318.final.bam
+Time: 0.157 seconds (55305 reads/sec, 1064 bins/sec)
+Summary: #bins=167, #reads=8683, mean=51.9973, min=0.0, max=1831.3709677419354 
+Percent reads in regions: 0.202 (of 4306679 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1318.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1318.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 44.19 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 227 bins on chromosome chr4
+Dropped 1 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Dropped 1 / 197 bins on chromosome chr19
+Dropped 2 / 395 bins on chromosome chrX
+Smoothing overshot at 1 / 199 indices: (-2.0708774923398643, -0.40278816041293986) vs. original (-1.9778773039262003, 0.21215815575067656)
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final.cns with 44 regions
+Applying filter 'ci'
+Filtered by 'ci' from 44 to 37 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final.call.cns with 37 regions
+Ignoring 88 off-target bins
+Significant hits in 824/8590 bins (9.59%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final.bintest.cns with 824 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final-scatter.png
+Relative log2 coverage of chrX=-0.99, chrY=0.411 (maleness=112 x 283 = 3.17e+04) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1318.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1319.final.bam ...
+Processing reads in 21NGS1319.final.bam
+Time: 120.147 seconds (30271 reads/sec, 78 bins/sec)
+Summary: #bins=9365, #reads=3636970, mean=388.3578, min=3.5842105263157893, max=4500.1 
+Percent reads in regions: 74.715 (of 4867764 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1319.final.bam
+Time: 0.170 seconds (59943 reads/sec, 980 bins/sec)
+Summary: #bins=167, #reads=10218, mean=61.1905, min=0.0, max=2289.8736842105263 
+Percent reads in regions: 0.210 (of 4867764 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1319.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1319.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 36.67 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 272 bins on chromosome chr3
+Dropped 3 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Dropped 1 / 299 bins on chromosome chr16
+Dropped 1 / 293 bins on chromosome chr17
+Dropped 2 / 197 bins on chromosome chr19
+Dropped 1 / 395 bins on chromosome chrX
+Smoothing overshot at 1 / 199 indices: (-2.139324176973316, -0.4252092341116488) vs. original (-2.045040311029745, 0.3803473751644426)
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final.cns with 42 regions
+Applying filter 'ci'
+Filtered by 'ci' from 42 to 35 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final.call.cns with 35 regions
+Ignoring 88 off-target bins
+Significant hits in 801/8590 bins (9.32%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final.bintest.cns with 801 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final-scatter.png
+Relative log2 coverage of chrX=-0.99, chrY=0.38 (maleness=198 x 283 = 5.61e+04) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1319.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1334.final.bam ...
+Processing reads in 21NGS1334.final.bam
+Time: 133.363 seconds (30165 reads/sec, 70 bins/sec)
+Summary: #bins=9365, #reads=4022947, mean=429.5726, min=2.493438320209974, max=7034.566929133858 
+Percent reads in regions: 65.712 (of 6122044 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1334.final.bam
+Time: 0.234 seconds (78998 reads/sec, 714 bins/sec)
+Summary: #bins=167, #reads=18489, mean=110.7132, min=0.0, max=3522.482939632546 
+Percent reads in regions: 0.302 (of 6122044 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1334.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1334.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 32.14 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Dropped 1 / 293 bins on chromosome chr17
+Dropped 2 / 197 bins on chromosome chr19
+Dropped 1 / 395 bins on chromosome chrX
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final.cns with 53 regions
+Applying filter 'ci'
+Filtered by 'ci' from 53 to 41 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final.call.cns with 41 regions
+Ignoring 88 off-target bins
+Significant hits in 491/8590 bins (5.72%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final.bintest.cns with 491 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final-scatter.png
+Relative log2 coverage of chrX=-0.993, chrY=0.532 (maleness=376 x 1.78e+03 = 6.68e+05) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1334.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1350.final.bam ...
+Processing reads in 21NGS1350.final.bam
+Time: 102.536 seconds (35289 reads/sec, 91 bins/sec)
+Summary: #bins=9365, #reads=3618430, mean=386.3781, min=3.135294117647059, max=7849.735294117647 
+Percent reads in regions: 77.219 (of 4685943 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1350.final.bam
+Time: 0.162 seconds (63581 reads/sec, 1033 bins/sec)
+Summary: #bins=167, #reads=10274, mean=61.5227, min=0.0, max=1555.1882352941177 
+Percent reads in regions: 0.219 (of 4685943 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1350.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1350.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 18.43 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 2 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Dropped 1 / 299 bins on chromosome chr16
+Dropped 2 / 293 bins on chromosome chr17
+Dropped 2 / 197 bins on chromosome chr19
+Dropped 1 / 395 bins on chromosome chrX
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final.cns with 46 regions
+Applying filter 'ci'
+Filtered by 'ci' from 46 to 33 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final.call.cns with 33 regions
+Ignoring 88 off-target bins
+Significant hits in 746/8590 bins (8.68%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final.bintest.cns with 746 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final-scatter.png
+Relative log2 coverage of chrX=-0.955, chrY=0.492 (maleness=28.5 x 31.3 = 894) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1350.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/21NGS1410.final.bam ...
+Processing reads in 21NGS1410.final.bam
+Time: 114.175 seconds (32665 reads/sec, 82 bins/sec)
+Summary: #bins=9365, #reads=3729517, mean=398.2400, min=0.0, max=3451.341584158416 
+Percent reads in regions: 73.329 (of 5085978 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final.targetcoverage.cnn with 9365 regions
+Processing reads in 21NGS1410.final.bam
+Time: 0.193 seconds (79868 reads/sec, 866 bins/sec)
+Summary: #bins=167, #reads=15394, mean=92.1813, min=0.0, max=3256.361386138614 
+Percent reads in regions: 0.303 (of 5085978 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final.antitargetcoverage.cnn with 167 regions
+Processing target: 21NGS1410.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 21NGS1410.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 28.78 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 272 bins on chromosome chr3
+Dropped 1 / 555 bins on chromosome chr7
+Smoothing overshot at 1 / 182 indices: (-0.33221700006870514, 1.6164048620559397) vs. original (-0.5164854127783758, 1.5682129411097445)
+Dropped 2 / 299 bins on chromosome chr16
+Dropped 1 / 293 bins on chromosome chr17
+Dropped 2 / 197 bins on chromosome chr19
+Smoothing overshot at 1 / 257 indices: (-0.5377439122423502, 1.718069402489935) vs. original (-1.0061788091544932, 1.6232635632177674)
+Dropped 1 / 395 bins on chromosome chrX
+Smoothing overshot at 1 / 199 indices: (-1.9356881061337665, -0.5425198314992848) vs. original (-1.835218507387326, 0.3418342070853956)
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final.cns with 47 regions
+Applying filter 'ci'
+Filtered by 'ci' from 47 to 33 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final.call.cns with 33 regions
+Ignoring 88 off-target bins
+Significant hits in 686/8590 bins (7.99%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final.bintest.cns with 686 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final-scatter.png
+Relative log2 coverage of chrX=-0.971, chrY=0.404 (maleness=55.2 x 283 = 1.56e+04) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/21NGS1410.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/22NGS22.final.bam ...
+Processing reads in 22NGS22.final.bam
+Time: 106.094 seconds (36989 reads/sec, 88 bins/sec)
+Summary: #bins=9365, #reads=3924274, mean=419.0363, min=5.307042253521127, max=2428.957746478873 
+Percent reads in regions: 72.495 (of 5413189 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final.targetcoverage.cnn with 9365 regions
+Processing reads in 22NGS22.final.bam
+Time: 0.155 seconds (63233 reads/sec, 1076 bins/sec)
+Summary: #bins=167, #reads=9813, mean=58.7642, min=0.0, max=1959.0140845070423 
+Percent reads in regions: 0.181 (of 5413189 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final.antitargetcoverage.cnn with 167 regions
+Processing target: 22NGS22.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 22NGS22.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 49.50 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 3 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Smoothing overshot at 1 / 182 indices: (-0.13778189359231385, 0.7867479288486676) vs. original (-0.3178516331153868, 0.7557616878985955)
+Smoothing overshot at 1 / 152 indices: (-0.1366233663587523, 0.5973703304211915) vs. original (-0.3238937409270656, 0.5884751777265866)
+Dropped 1 / 293 bins on chromosome chr17
+Dropped 3 / 197 bins on chromosome chr19
+Dropped 1 / 395 bins on chromosome chrX
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final.cns with 47 regions
+Applying filter 'ci'
+Filtered by 'ci' from 47 to 40 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final.call.cns with 40 regions
+Ignoring 88 off-target bins
+Significant hits in 239/8590 bins (2.78%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final.bintest.cns with 239 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final-scatter.png
+Relative log2 coverage of chrX=-0.965, chrY=0.311 (maleness=25.3 x 1.78e+03 = 4.5e+04) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS22.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/22NGS41.final.bam ...
+Processing reads in 22NGS41.final.bam
+Time: 126.567 seconds (35112 reads/sec, 74 bins/sec)
+Summary: #bins=9365, #reads=4444022, mean=474.5352, min=19.513812154696133, max=2752.9116022099447 
+Percent reads in regions: 68.583 (of 6479760 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final.targetcoverage.cnn with 9365 regions
+Processing reads in 22NGS41.final.bam
+Time: 0.206 seconds (76728 reads/sec, 810 bins/sec)
+Summary: #bins=167, #reads=15818, mean=94.7204, min=0.0, max=3062.3093922651933 
+Percent reads in regions: 0.244 (of 6479760 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final.antitargetcoverage.cnn with 167 regions
+Processing target: 22NGS41.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 22NGS41.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 57.62 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Smoothing overshot at 1 / 182 indices: (-0.17043748255617536, 0.8588975634651704) vs. original (-0.3081467349675497, 0.8209852245397836)
+Dropped 2 / 299 bins on chromosome chr16
+Dropped 2 / 197 bins on chromosome chr19
+Dropped 1 / 395 bins on chromosome chrX
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final.cns with 52 regions
+Applying filter 'ci'
+Filtered by 'ci' from 52 to 39 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final.call.cns with 39 regions
+Ignoring 88 off-target bins
+Significant hits in 246/8590 bins (2.86%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final.bintest.cns with 246 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final-scatter.png
+Relative log2 coverage of chrX=-0.979, chrY=0.461 (maleness=38.9 x 11.2 = 434) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS41.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/22NGS50.final.bam ...
+Processing reads in 22NGS50.final.bam
+Time: 111.307 seconds (33283 reads/sec, 84 bins/sec)
+Summary: #bins=9365, #reads=3704647, mean=395.5844, min=16.45125348189415, max=2489.888579387187 
+Percent reads in regions: 71.980 (of 5146809 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final.targetcoverage.cnn with 9365 regions
+Processing reads in 22NGS50.final.bam
+Time: 0.184 seconds (71037 reads/sec, 909 bins/sec)
+Summary: #bins=167, #reads=13053, mean=78.1644, min=0.0, max=2903.5376044568247 
+Percent reads in regions: 0.254 (of 5146809 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final.antitargetcoverage.cnn with 167 regions
+Processing target: 22NGS50.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 22NGS50.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 26.88 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 3 / 555 bins on chromosome chr7
+Dropped 2 / 197 bins on chromosome chr19
+Smoothing overshot at 1 / 257 indices: (-0.5334751971599604, 1.0444646271507945) vs. original (-0.9629704354172005, 1.0321312833350278)
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final.cns with 49 regions
+Applying filter 'ci'
+Filtered by 'ci' from 49 to 40 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final.call.cns with 40 regions
+Ignoring 88 off-target bins
+Significant hits in 267/8590 bins (3.11%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final.bintest.cns with 267 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final-scatter.png
+Relative log2 coverage of chrX=-0.961, chrY=0.351 (maleness=29 x 283 = 8.22e+03) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS50.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/22NGS7.final.bam ...
+Processing reads in 22NGS7.final.bam
+Time: 110.636 seconds (33938 reads/sec, 85 bins/sec)
+Summary: #bins=9365, #reads=3754810, mean=400.9408, min=3.673469387755102, max=4556.683673469388 
+Percent reads in regions: 74.252 (of 5056822 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final.targetcoverage.cnn with 9365 regions
+Processing reads in 22NGS7.final.bam
+Time: 0.123 seconds (60839 reads/sec, 1358 bins/sec)
+Summary: #bins=167, #reads=7483, mean=44.8132, min=0.0, max=1677.3316326530612 
+Percent reads in regions: 0.148 (of 5056822 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final.antitargetcoverage.cnn with 167 regions
+Processing target: 22NGS7.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 22NGS7.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 18.16 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 227 bins on chromosome chr4
+Dropped 2 / 555 bins on chromosome chr7
+Dropped 2 / 293 bins on chromosome chr17
+Dropped 6 / 197 bins on chromosome chr19
+Dropped 1 / 395 bins on chromosome chrX
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final.cns with 42 regions
+Applying filter 'ci'
+Filtered by 'ci' from 42 to 39 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final.call.cns with 39 regions
+Ignoring 88 off-target bins
+Significant hits in 652/8590 bins (7.59%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final.bintest.cns with 652 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final-scatter.png
+Relative log2 coverage of chrX=-0.00927, chrY=0.265 (maleness=2.29e-05 x 283 = 0.0065) --> assuming female
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS7.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/22NGS74.final.bam ...
+Processing reads in 22NGS74.final.bam
+Time: 155.082 seconds (30709 reads/sec, 60 bins/sec)
+Summary: #bins=9365, #reads=4762479, mean=508.5403, min=3.071794871794872, max=12877.892307692307 
+Percent reads in regions: 65.762 (of 7242000 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final.targetcoverage.cnn with 9365 regions
+Processing reads in 22NGS74.final.bam
+Time: 0.174 seconds (62947 reads/sec, 962 bins/sec)
+Summary: #bins=167, #reads=10931, mean=65.4584, min=0.0, max=2407.897435897436 
+Percent reads in regions: 0.151 (of 7242000 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final.antitargetcoverage.cnn with 167 regions
+Processing target: 22NGS74.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 22NGS74.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 23.23 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 97 bins on chromosome chr6
+Dropped 1 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Smoothing overshot at 1 / 182 indices: (-0.2128265050308455, 1.133276562966794) vs. original (-0.5577510832658691, 1.082864834057904)
+Smoothing overshot at 1 / 128 indices: (-0.6069035080480255, 0.8453005377342184) vs. original (-0.5518994932605318, 1.0892784764043841)
+Dropped 1 / 293 bins on chromosome chr17
+Dropped 3 / 197 bins on chromosome chr19
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final.cns with 45 regions
+Applying filter 'ci'
+Filtered by 'ci' from 45 to 36 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final.call.cns with 36 regions
+Ignoring 88 off-target bins
+Significant hits in 352/8590 bins (4.1%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final.bintest.cns with 352 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final-scatter.png
+Relative log2 coverage of chrX=0.00609, chrY=0.105 (maleness=0.00245 x 31.3 = 0.0768) --> assuming female
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS74.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/22NGS86.final.bam ...
+Processing reads in 22NGS86.final.bam
+Time: 99.148 seconds (29052 reads/sec, 94 bins/sec)
+Summary: #bins=9365, #reads=2880408, mean=307.5717, min=0.12437810945273632, max=1796.6318407960198 
+Percent reads in regions: 71.010 (of 4056327 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final.targetcoverage.cnn with 9365 regions
+Processing reads in 22NGS86.final.bam
+Time: 0.151 seconds (59405 reads/sec, 1107 bins/sec)
+Summary: #bins=167, #reads=8965, mean=53.6859, min=0.0, max=1986.9004975124378 
+Percent reads in regions: 0.221 (of 4056327 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final.antitargetcoverage.cnn with 167 regions
+Processing target: 22NGS86.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 22NGS86.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 35.50 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 272 bins on chromosome chr3
+Dropped 2 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Smoothing overshot at 1 / 182 indices: (-0.27530225158248245, 1.2622265364001768) vs. original (-0.6165842753254456, 1.2057604700750213)
+Dropped 2 / 293 bins on chromosome chr17
+Dropped 2 / 197 bins on chromosome chr19
+Smoothing overshot at 1 / 257 indices: (-2.9494732265932813, 1.3401945985071553) vs. original (-10.057118362198864, 1.2730990163693947)
+Dropped 1 / 395 bins on chromosome chrX
+Dropped 2 / 16 bins on chromosome chrY
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final.cns with 54 regions
+Applying filter 'ci'
+Filtered by 'ci' from 54 to 42 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final.call.cns with 42 regions
+Segments do not cover all bins (8678), only 8677 of them
+Ignoring 87 off-target bins
+Significant hits in 413/8590 bins (4.81%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final.bintest.cns with 413 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final-scatter.png
+Relative log2 coverage of chrX=0.0217, chrY=-1.05 (maleness=0.00211 x 133 = 0.28) --> assuming female
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22NGS86.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/22RSEQ11.final.bam ...
+Processing reads in 22RSEQ11.final.bam
+Time: 64.672 seconds (35967 reads/sec, 145 bins/sec)
+Summary: #bins=9365, #reads=2326058, mean=248.3779, min=2.953846153846154, max=1256.3446153846153 
+Percent reads in regions: 76.932 (of 3023534 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final.targetcoverage.cnn with 9365 regions
+Processing reads in 22RSEQ11.final.bam
+Time: 0.135 seconds (52743 reads/sec, 1238 bins/sec)
+Summary: #bins=167, #reads=7113, mean=42.5979, min=0.0, max=1264.0676923076924 
+Percent reads in regions: 0.235 (of 3023534 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final.antitargetcoverage.cnn with 167 regions
+Processing target: 22RSEQ11.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 22RSEQ11.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 38.68 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Smoothing overshot at 1 / 112 indices: (-0.3137224118210381, 0.4274965581633473) vs. original (-0.28566745901080337, 1.061557091400008)
+Dropped 1 / 97 bins on chromosome chr6
+Dropped 2 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Dropped 1 / 299 bins on chromosome chr16
+Dropped 3 / 293 bins on chromosome chr17
+Dropped 4 / 197 bins on chromosome chr19
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final.cns with 49 regions
+Applying filter 'ci'
+Filtered by 'ci' from 49 to 42 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final.call.cns with 42 regions
+Ignoring 88 off-target bins
+Significant hits in 239/8590 bins (2.78%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final.bintest.cns with 239 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final-scatter.png
+Relative log2 coverage of chrX=-0.952, chrY=0.452 (maleness=98.6 x 31.3 = 3.09e+03) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ11.final-diagram.pdf
+Running the CNVkit pipeline on /home/ubuntu/cnvtest/control_samples/negative_controls/22RSEQ26.final.bam ...
+Processing reads in 22RSEQ26.final.bam
+Time: 86.536 seconds (36504 reads/sec, 108 bins/sec)
+Summary: #bins=9365, #reads=3158931, mean=337.3124, min=21.614035087719298, max=1872.2105263157894 
+Percent reads in regions: 73.784 (of 4281330 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final.targetcoverage.cnn with 9365 regions
+Processing reads in 22RSEQ26.final.bam
+Time: 0.160 seconds (63862 reads/sec, 1043 bins/sec)
+Summary: #bins=167, #reads=10224, mean=61.2251, min=0.0, max=2028.7719298245613 
+Percent reads in regions: 0.239 (of 4281330 mapped)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final.antitargetcoverage.cnn with 167 regions
+Processing target: 22RSEQ26.final
+Keeping 8590 of 9365 bins
+Correcting for GC bias...
+Correcting for density bias...
+Processing antitarget: 22RSEQ26.final
+Keeping 88 of 167 bins
+Correcting for GC bias...
+Correcting for RepeatMasker bias...
+Antitargets are 30.93 x more variable than targets
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final.cnr with 8678 regions
+Segmenting /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final.cnr ...
+Segmenting with method 'cbs', significance threshold 0.0001, in 1 processes
+Dropped 1 / 272 bins on chromosome chr3
+Dropped 3 / 555 bins on chromosome chr7
+Dropped 1 / 145 bins on chromosome chr8
+Dropped 1 / 91 bins on chromosome chr11
+Dropped 1 / 299 bins on chromosome chr16
+Dropped 2 / 293 bins on chromosome chr17
+Dropped 3 / 197 bins on chromosome chr19
+Post-processing /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final.cns ...
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final.cns with 51 regions
+Applying filter 'ci'
+Filtered by 'ci' from 51 to 40 rows
+Calling copy number with thresholds: -1.1 => 0, -0.25 => 1, 0.2 => 2, 0.7 => 3
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final.call.cns with 40 regions
+Ignoring 88 off-target bins
+Significant hits in 294/8590 bins (3.42%)
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final.bintest.cns with 294 regions
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final-scatter.png
+Relative log2 coverage of chrX=-0.955, chrY=0.591 (maleness=77.6 x 1.78e+03 = 1.38e+05) --> assuming male
+Wrote /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/22RSEQ26.final-diagram.pdf

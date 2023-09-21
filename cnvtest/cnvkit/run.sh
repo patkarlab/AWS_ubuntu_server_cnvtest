@@ -1,0 +1,1 @@
+cnvkit.py batch /home/ubuntu/cnvtest/control_samples/negative_controls/*.final.bam -r /home/ubuntu/cnvtest/cnvkit/Reference.cnn -m hybrid --drop-low-coverage --output-dir /home/ubuntu/cnvtest/cnvkit/results_negativecontrols/  --scatter --diagram
